@@ -5,10 +5,7 @@
  */
  @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
  @import url(http://fonts.googleapis.com/css?family=Lato:700,400,300);
- @font-face {
-   font-family: carolingia-bigfoot;
-   src: url(/assets/fonts/carolingia-bigfoot.normal.ttf);
- }
+ 
  body{
    font-family: 'Open Sans', sans-serif;
    background: #f1f1f1;
@@ -63,13 +60,8 @@
          .navbar-brand {
            height: 100px;
            padding: 40px 15px;
-           font-size: 30px;
+           font-size: 24px;
          }
-         .navbar-brand2 {
-          height: 100px;
-          padding: 40px 15px;
-          font-size: 30px;
-        }
          .navbar-nav > li > a {
            padding-top: 40px;
            padding-bottom: 40px;
@@ -262,13 +254,7 @@
  }
  .navbar-default .navbar-brand {
    color: #006666;
-   font-family: carolingia-bigfoot;
-   font-weight: 900;
  }
- .navbar-default .navbar-brand2{
-  color: #006666;
-  font-family: carolingia-bigfoot;
-}
  .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand:focus {
    color: #000;
@@ -390,10 +376,6 @@
  .vote-name {
    color: #1CC7E3;
  }
- .vote-lis{
-   list-style-type: square;
-   color: #000;
- }
  .server-name-card {
  font-weight: 600;
  text-align: center;
@@ -403,5 +385,3 @@
  display: block;
  padding: 10px 15px;
  }
-
- 
