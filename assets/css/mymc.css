@@ -261,12 +261,12 @@
    background: #fff;
  }
  .navbar-default .navbar-brand {
-   color: #006666;
+   color: #1CC7E3;
    font-family: carolingia-bigfoot;
    font-weight: 900;
  }
  .navbar-default .navbar-brand2{
-  color: #006666;
+  color: #1CC7E3;
   font-family: carolingia-bigfoot;
 }
  .navbar-default .navbar-brand:hover,
@@ -403,5 +403,18 @@
  display: block;
  padding: 10px 15px;
  }
-
- 
+ .header{
+   text-align: justify;
+   font-weight: 700;
+   text-decoration: underline;
+ }
+.subheading {
+  text-align: justify;
+   font-weight: 600;
+}
+.ul-list {
+  border: orange 20px;
+}
+.nav-link {
+  color: #000;
+}

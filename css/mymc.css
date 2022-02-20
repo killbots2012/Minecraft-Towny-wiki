@@ -31,6 +31,7 @@
      height: 100px;
      padding: 40px 15px;
      font-size: 24px;
+     color: orange;
    }
    .navbar-nav > li > a {
      padding-top: 40px;
@@ -334,14 +335,20 @@
    margin-right: 9px;
    margin-bottom: 20px;
  }
+ .dev {
+   color: green;
+   background-color: pink;
+ }
  .staff-name {
    background: rgba(0,0,0,.3);
    height: 50px;
    padding: 15px 10px;
    min-width: 100%;
+   background-color: green;
  }
  .staff-name span {
    color: #fff;
+   background-color: green;
    font-size: 15px;
  }
  .carousel-inner > .item > iframe{
