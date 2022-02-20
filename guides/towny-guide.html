@@ -49,22 +49,22 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#scrollspyHeading1">Towny Commands</a>
+                  <a class="nav-link" href="#scrollspyHeading1" style="color: #1CC7E3;">Towny Commands</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#scrollspyHeading2">Town commands</a>
+                  <a class="nav-link" href="#scrollspyHeading2" style="color: #1CC7E3;">Town commands</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#scrollspyHeading3">Plot Commands</a>
+                  <a class="nav-link" href="#scrollspyHeading3" style="color: #1CC7E3;">Plot Commands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading4">Town Ranks</a>
+                    <a class="nav-link" href="#scrollspyHeading4" style="color: #1CC7E3;">Town Ranks</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading5">Nation commands</a>
+                    <a class="nav-link" href="#scrollspyHeading5" style="color: #1CC7E3;">Nation commands</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading6">Nation Ranks</a>
+                    <a class="nav-link" href="#scrollspyHeading6" style="color: #1CC7E3;">Nation Ranks</a>
                   </li>
               </ul>
         </div>
@@ -75,9 +75,9 @@
             
             <div class="container">
                       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-                        <h4 id="scrollspyHeading1">Towny Commands</h4>
+                        <h4 class="header" id="scrollspyHeading1">Towny Commands</h4>
                         <ol class="">
-                            <ul class="">
+                            <ul class="ul-list">
                                 <li class=""><b>/town:</b> shows basic information of your town, such as your towns bank's balance, Whom has which rank, number of plots available, how many bonus lots the town has.</li>
                                 <li><b>/town new [name]</b> Is used to create your town. note use '_" instead of spaces; for example, /town create New_York.</li>
                                 <li><b>/town deposit:</b> is used to deposit money into your town bank, for example /town deposit 1000.</li>
@@ -92,9 +92,9 @@
                                 <li><b>/town say</b> Sends a message to all members currently online.</li>
                             </ul>
                         </ol>
-                        <h4 id="scrollspyHeading2">Town Commands</h4>
+                        <h4 class="header" id="scrollspyHeading2">Town Commands</h4>
                         <ol class="">
-                            <ul class="">
+                            <ul class="ul-list">
                                 <li class=""><b>/town:</b> shows basic information of your town, such as your towns bank's balanace, Whom has which rank, number of plots available, how many bonus lots the town has.</li>
                                 <li><b>/town new [name]</b> Is used to create your town. note use '_" instead of spaces; for example /town create New_York.</li>
                                 <li><b>/town deposit:</b> is used to deposit money into your town bank, for example /town deposit 1000.</li>
@@ -103,31 +103,30 @@
                                 <li><b>/town online</b> Lists all online resident in town</li>
                                 <li><b>/town leave</b> is to exit a town.</li>
                                 <li><b>/town add:</b> is used to members to your town, for example /town add [playername].</li>
-                                <li><b>/town rank:</b> is used to give a member a town rank such as, example /town rank add [playername] [rank].</li>
+                                <li><b>/town rank:</b> is used to give a member a <a href="#scrollspyHeading4">town rank</a>  such as, example /town rank add [playername] [rank].</li>
                                 <li><b>/town grouplist [town] [page]</b> Shows the names and any other information of the plot groups of a town.</li>
                                 <li><b>/town plot</b> Shows a detailed list of plot types of the town, and the plot types the town's residents own.</li>
                                 <li><b>/town say</b> Sends a message to all members currently online.</li>
                             </ul>
                         </ol>
-                        <h4 id="scrollspyHeading3">Plot commands</h4>
+                        <h4 class="header" id="scrollspyHeading3">Plot commands</h4>
                         <ol class="">
-                            <ul class="">
-                                <li class=""><b>/town:</b> shows basic infomation of your town, such as your towns bank's balance, Whom has which rank, number of plots available, how many bonus lots the town has.</li>
-                                <li><b>/town new [name]</b> Is used to create your town. note use '_" instead of spaces; for example /town create New_York.</li>
-                                <li><b>/town deposit:</b> is used to deposit money into your town bank, for example /town deposit 1000.</li>
-                                <li><b>/town here</b> Shortcut to the town's status of your current location.</li>
-                                <li><b>/town list</b> Shows a list of towns created.</li>
-                                <li><b>/town online</b> Lists all online resident in town</li>
-                                <li><b>/town leave</b> is to exit a town.</li>
-                                <li><b>/town add:</b> is used to members to your town, for example /town add [playername].</li>
-                                <li><b>/town rank:</b> is used to give a member a town rank such as, example /town rank add [playername] [rank].</li>
-                                <li><b>/town grouplist [town] [page]</b> Shows the names and any other infomation of the plot groups of a town.</li>
-                                <li><b>/town plot</b> Shows a detailed list of plot types of the town, and the plot types the town's residents own.</li>
-                                <li><b>/town say</b> Sends a message to all members currently online.</li>
+                            <ul class="ul-list">
+                                <li><code class="command">/town:</code> shows basic infomation of your town, such as your towns bank's balance, Whom has which rank, number of plots available, how many bonus lots the town has.</li>
+                                <li><code>/town new [name]</code> Is used to create your town. note use '_" instead of spaces; for example /town create New_York.</li>
+                                <li><code>/town deposit:</code> is used to deposit money into your town bank, for example /town deposit 1000.</li>
+                                <li><code>/town here</code> Shortcut to the town's status of your current location.</li>
+                                <li><code>/town list</code> Shows a list of towns created.</li>
+                                <li><code>/town online</code> Lists all online resident in town</li>
+                                <li><code>/town leave</code> is to exit a town.</li>
+                                <li><code>/town add:</code> is used to members to your town, for example /town add [playername].</li>
+                                <li><code>/town rank:</code> is used to give a member a town rank such as, example /town rank add [playername] [rank].</li>
+                                <li><code>/town grouplist [town] [page]</code> Shows the names and any other infomation of the plot groups of a town.</li>
+                                <li><code>/town plot</code> Shows a detailed list of plot types of the town, and the plot types the town's residents own.</li>
+                                <li><code>/town say</code> Sends a message to all members currently online.</li>
                             </ul>
                     </ol>
                         <h3 class="header" id="scrollspyHeading4">Town Ranks</h3>
-                        <ol class="list-unstyled text-bold">
                             <ul class="ul-list">
                                 <h4 class="subheading">Mayor</h4>
                                 <li class="" >Tax exempted</li>
@@ -136,72 +135,79 @@
                                 <li class="">Full control over residents plots</li> 
                                 <li class="">Control over toggling mobs, fire tick, pvp etc</li>
                             </ul>
-                            <ul class=""><h3>Co-Mayor</h3>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Co-Mayor</h4>
                                 <li class="" >Tax exempted</li>
                                 <li class="">Claim Town land</li>
                                 <li class="">Invite new town members</li> 
                                 <li class="">Full control over residents plots</li> 
                                 <li class="">Control over toggling mobs, fire tick, pvp etc</li>
                             </ul>
-                            <ul class=""><h3>Assistant</h3>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Assistant</h4>
                                 <li class="" >Tax exempted</li>
                                 <li class="">Claim Town land</li>
                                 <li class="">Invite new town members</li> 
                                 <li class="">Full control over residents plots</li> 
                                 <li class="">Control over toggling mobs, fire tick, pvp etc</li>
                             </ul>
-                            <ul class=""><h3>Helper</h3>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Helper</h4>
                                 <li class="" >Tax exempted</li>
         
                             </ul>
-                            <ul class=""><h3>VIP</h3>
+                            <ul class="ul-list">
+                                <h4 class="subheading">VIP</h4>
                                 <li class="" >Tax exempted</li>
                             </ul>
                         </ul>
-                        <ul class=""><h3>VIP</h3>
-                            <li class="" >Tax exempted</li>
+                        <ul class="ul-list">
+                            <h4 class="subheading">VIP</h4>
                             <li class="" >Tax exempted</li>
                         </ul>
-                        </ol>
-                        <h4 id="scrollspyHeading5">Nation Commands</h4>
-                        <ul class="">
-                            <li class="">/town: shows basic infomation of your town, such as your towns bank's balanace, Whome has which rank, number of plots avalable, how many bonus lots the town has</li>
-                            <li><b>/town deposit:</b> is used to dpeosit money into your town bank, for example /town deposit 1000</li>
-                            <li><b>/town deposit:</b> is used to members to your town, for example /town add [playername]</li>
-                            <li><b>/town add:</b> is used to deosit money into your town bank, for example /town deposit 1000</li>
-                            <li><b>/town rank:</b> is used to give a member a town <a href="ranks.html">rank</a>  such as, example /town rank add [playername] [rank]</li>
+
+                        <h4 class="header" id="scrollspyHeading5">Nation Commands</h4>
+                        <ul class="ul-list">
+                            <li class=""><code>/nation:</code> shows basic infomation of your town, such as your towns bank's balanace, Whome has which rank, number of plots avalable, how many bonus lots the town has</li>
+                            <li><code>/nation deposit:</code> is used to dpeosit money into your town bank, for example /town deposit 1000</li>
+                            <li><code>/nation add:</code> is used to members to your town, for example /town add [playername]</li>
+                            <li><code>/nation rank:</code> is used to give a member a town <a href="#scrollspyHeading6">rank</a>  such as, example /town rank add [playername] [rank]</li>
                         </ul>
-                        <h4 id="scrollspyHeading6">Nation Ranks</h4>
+                        <h4 class="header" id="scrollspyHeading6">Nation Ranks</h4>
                         <ol class="">
-                            <ul class=""><h3>King</h3>
+                            <ul class="ul-list">
+                                <h4>King</h4>
                                 <li class="" >Tax exempted</li>
                                 <li class="">Claim Town land</li>
                                 <li class="">Invite new town members</li> 
                                 <li class="">Full control over residents plots</li> 
                                 <li class="">Control over toggling mobs, fire tick, pvp etc</li>
                             </ul>
-                            <ul class=""><h3>Queen</h3>
+                            <ul class="ul-list">
+                                <h4>Queen</h4>
                                 <li class="" >Tax exempted</li>
                                 <li class="">Claim Town land</li>
                                 <li class="">Invite new town members</li> 
                                 <li class="">Full control over residents plots</li> 
                                 <li class="">Control over toggling mobs, fire tick, pvp etc</li>
                             </ul>
-                            <ul class=""><h3>Assistant</h3>
+                            <ul class="ul-list">
+                                <h4>Assistant</h4>
                                 <li class="" >Tax exempted</li>
                                 <li class="">Claim Town land</li>
                                 <li class="">Invite new town members</li> 
                                 <li class="">Full control over residents plots</li> 
                                 <li class="">Control over toggling mobs, fire tick, pvp etc</li>
                             </ul>
-                            <ul class=""><h3>Helper</h3>
+                            <ul class="ul-list">
+                                <h4>Helper</h4>
                                 <li class="" >Tax exempted</li>
                             </ul>
                         </ol>
                       </div>
             </div>
             <div class="container">
-                <h1 class="page-header" style="color: red;"><b>Page is still under construction, if you wish to help continue building guides please make a pull request on our <a href="https://github.com/killbots2012/ModernMC-site">GitHub </a></b></h1>
+                <h5 class="page-header" style="color: red;"><b>Page is still under construction, if you wish to help continue building guides please make a pull request on our <a href="https://github.com/killbots2012/ModernMC-site">GitHub </a></b></h5>
                 </div>
             <hr>
             <footer>
@@ -213,7 +219,8 @@
                             <li role="presentation"><a href="/pages/staff.html"><i class="fa fa-star"></i></a></li>
                             <li role="presentation"><a href="/pages/vote.html"><i class="fa fa-check"></i></a></li>
                             <li role="presentation"><a href="https://modermmc.enjin.com/shop"><i class="fa fa-shopping-cart"></i></a></li>
-                        </ul>               
+                        </ul>  
+                        <ul class="nav nav-pills right">             
                             <li class="presentation"><a href="http://discord.modernmc.ca/"><i class="fab fa-discord"></i></a></li>
                             <li class="presentation"><a href="https://www.youtube.com/channel/UC0aJPofvns-VGgAutvPu5rQ"><i class="fab fa-youtube"></i></a></li>
                             <li class="presentation"><a href="https://www.instagram.com/moderntowny/"><i class="fab fa-instagram"></i></a></li>

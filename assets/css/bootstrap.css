@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: teal;
 }
 article,
 aside,
@@ -1516,8 +1517,8 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: green;
+  background-color: #2c2a2a;
   border-radius: 4px;
 }
 kbd {
