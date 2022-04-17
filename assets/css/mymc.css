@@ -263,7 +263,7 @@
  .navbar-default .navbar-brand {
    color: #1CC7E3;
    font-family: carolingia-bigfoot;
-   font-weight: 900;
+   font-weight: 400;
  }
  .navbar-default .navbar-brand2{
   color: #1CC7E3;
@@ -419,7 +419,7 @@
    color:#1CC7E3
 }
 .ul-list {
-  background-color: 7f7f7f;
+  background-color: #2c2a2a;
   color:#1CC7E3;
   text-align: left;
   list-style: circle;
