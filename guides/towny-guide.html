@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>ModernMC</title>
+        <link rel="ICON" href="/assets/img/server-icon.webp">
+        <!-- Bootstrap core CSS -->
+        <link href="/assets/css/bootstrap.css" rel="stylesheet">
+		<!-- MyMC CSS -->
+        <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/fontawesome-free-5.15.4-web/css/all.css">
+		<!-- FontAwesome CSS -->
+        <link href="/assets/css/mymc.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!--server logo-->
+                    <a class="panel-title navbar-brand" href="/index.html">ModernMC</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li ><a href="/guides/towny-guide.html" style="color: green;"><i class="fa fa-home"></i> Towny</a></li>
+                        <li><a href="rules.html" style="color:lightseagreen;"><i class="fa fa-info-circle"></i> Vanilla</a></li>
+                        <li><a href="Hardcore-guide.html" style="color:red;"><i class="fas fa-burn"> Hardcore</i></a></li>
+                    </ul> 
+                      
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+      
+             
+    </nav>
+    <nav class="flex-column">
+        <div class="container">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1" style="color: #1CC7E3;">Towny Commands</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2" style="color: #1CC7E3;">Town commands</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading3" style="color: #1CC7E3;">Plot Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading6" style="color: #1CC7E3;">Residents</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4" style="color: #1CC7E3;">Town Ranks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading5" style="color: #1CC7E3;">Nation commands</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading6" style="color: #1CC7E3;">Nation Ranks</a>
+                  </li>
+              </ul>
+        </div>
+    </div>
+    </nav>           
+        
+            <!-- Content here! -->
+            
+            <div class="container">
+                      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h4 class="header" id="scrollspyHeading1">Towny Commands</h4>
+                        <ol class="">
+                            <ul class="ul-list">
+                                <li class=""><b>/towny ? </b>:Shows the list commands .</li>
+                                <li><b>/towny map</b> :Displays a map of nearby townblocks.</li>
+                                <li><b>/towny prices</b> :Displays the prices used with our economy</li>
+                                <li><b>/towny top</b> :Displays the highscores.</li>
+                                <li><b>/towny time</b> :Displays time untill a new day.</li>
+                                <li><b>/towny universe</b> :Displays stats</li>
+                                <li><b>/towny v</b> :Displays the version of Towny.</li>
+                                <li><b>/towny war:</b> :'/Towny war' for more info. Towny war is currently not enabled, if voted on on Discord then I'll enable it</li>
+                            </ul>
+                        </ol>
+                        <h4 class="header" id="scrollspyHeading2">Town Commands</h4>
+                        <ol class="">
+                            <ul class="ul-list">
+                                <li class=""><b>/town</b> shows basic information of your town, such as your towns bank's balanace, Whom has which rank, number of plots available, how many bonus lots the town has.</li>
+                                <li><b>/town new [name]</b> Is used to create your town. note use '_" instead of spaces; for example /town create New_York.</li>
+                                <li><b>/town deposit:</b> is used to deposit money into your town bank, for example /town deposit 1000.</li>
+                                <li><b>/town here</b> Shortcut to the town's status of your current location.</li>
+                                <li><b>/town list</b> Shows a list of towns created.</li>
+                                <li><b>/town online</b> Lists all online resident in town</li>
+                                <li><b>/town leave</b> is to exit a town.</li>
+                                <li><b>/town add:</b> is used to members to your town, for example /town add [playername].</li>
+                                <li><b>/town rank:</b> is used to give a member a <strong><a href="#scrollspyHeading4">town rank</a></strong> such as, example /town rank add [playername] [rank].</li>
+                                <li><b>/town grouplist [town] [page]</b> Shows the names and any other information of the plot groups of a town.</li>
+                                <li><b>/town plot</b> Shows a detailed list of plot types of the town, and the plot types the town's residents own.</li>
+                                <li><b>/town say</b> Sends a message to all members currently online.</li>
+                            </ul>
+                        </ol>
+                        <h4 class="header" id="scrollspyHeading3">Plot commands</h4>
+                        <ol class="">
+                            <ul class="ul-list">
+                                <li>/plot: shows basic infomation of your town, such as your towns bank's balance, Whom has which rank, number of plots available, how many bonus lots the town has.</li>
+                                <li>/plot new [name] Is used to create your town. note use '_" instead of spaces; for example /town create New_York.</li>
+                                <li>/plot deposit: is used to deposit money into your town bank, for example /town deposit 1000.</li>
+                                <li>/plot here Shortcut to the town's status of your current location.</li>
+                                <li>/plot list Shows a list of towns created.</li>
+                                <li>/plot online Lists all online resident in town</li>
+                                <li>/plot leave is to exit a town.</li>
+                                <li>/plot add: is used to members to your town, for example /town add [playername].</li>
+                                <li>/plot rank: is used to give a member a town rank such as, example /town rank add [playername] [rank].</li>
+                                <li>/plot grouplist [town] [page] Shows the names and any other infomation of the plot groups of a town.</li>
+                                <li>/plot plot Shows a detailed list of plot types of the town, and the plot types the town's residents own.</li>
+                                <li>/plot say Sends a message to all members currently online.</li>
+                            </ul>
+                    </ol>
+                        <h3 class="header" id="scrollspyHeading4">Town Ranks</h3>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Mayor</h4>
+                                <li class="" >Tax exempted</li>
+                                <li class="">Claim Town land</li>
+                                <li class="">Invite new town members</li> 
+                                <li class="">Full control over residents plots</li> 
+                                <li class="">Control over toggling mobs, fire tick, pvp etc</li>
+                            </ul>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Co-Mayor</h4>
+                                <li class="" >Tax exempted</li>
+                                <li class="">Claim Town land</li>
+                                <li class="">Invite new town members</li> 
+                                <li class="">Full control over residents plots</li> 
+                                <li class="">Control over toggling mobs, fire tick, pvp etc</li>
+                            </ul>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Assistant</h4>
+                                <li class="" >Tax exempted</li>
+                                <li class="">Claim Town land</li>
+                                <li class="">Invite new town members</li> 
+                                <li class="">Full control over residents plots</li> 
+                                <li class="">Control over toggling mobs, fire tick, pvp etc</li>
+                            </ul>
+                            <ul class="ul-list">
+                                <h4 class="subheading">Helper</h4>
+                                <li class="" >Tax exempted</li>
+        
+                            </ul>
+                            <ul class="ul-list">
+                                <h4 class="subheading">VIP</h4>
+                                <li class="" >Tax exempted</li>
+                            </ul>
+                        </ul>
+                        <ul class="ul-list">
+                            <h4 class="subheading">VIP</h4>
+                            <li class="" >Tax exempted</li>
+                        </ul>
+
+                        <h4 class="header" id="scrollspyHeading5">Nation Commands</h4>
+                        <ul class="ul-list">
+                            <li class="">/nation: shows basic infomation of your town, such as your towns bank's balanace, Whome has which rank, number of plots avalable, how many bonus lots the town has</li>
+                            <li>/nation deposit: is used to dpeosit money into your town bank, for example /town deposit 1000</li>
+                            <li>/nation add: is used to members to your town, for example /town add [playername]</li>
+                            <li>/nation rank: is used to give a member a town <a href="#scrollspyHeading6">rank</a>  such as, example /town rank add [playername] [rank]</li>
+                        </ul>
+                        <h4 class="header" id="scrollspyHeading6">Nation Ranks</h4>
+                        <ol class="">
+                            <ul class="ul-list">
+                                <h4>King</h4>
+                                <li class="" >Tax exempted</li>
+                                <li class="">Claim Town land</li>
+                                <li class="">Invite new town members</li> 
+                                <li class="">Full control over residents plots</li> 
+                                <li class="">Control over toggling mobs, fire tick, pvp etc</li>
+                            </ul>
+                            <ul class="ul-list">
+                                <h4>Queen</h4>
+                                <li class="" >Tax exempted</li>
+                                <li class="">Claim Town land</li>
+                                <li class="">Invite new town members</li> 
+                                <li class="">Full control over residents plots</li> 
+                                <li class="">Control over toggling mobs, fire tick, pvp etc</li>
+                            </ul>
+                            <ul class="ul-list">
+                                <h4>Assistant</h4>
+                                <li class="" >Tax exempted</li>
+                                <li class="">Claim Town land</li>
+                                <li class="">Invite new town members</li> 
+                                <li class="">Full control over residents plots</li> 
+                                <li class="">Control over toggling mobs, fire tick, pvp etc</li>
+                            </ul>
+                            <ul class="ul-list">
+                                <h4>Helper</h4>
+                                <li class="" >Tax exempted</li>
+                            </ul>
+                        </ol>
+                      </div>
+            </div>
+            <div class="container">
+                <h5 class="page-header" style="color: red;"><b>Page is still under construction, if you wish to help continue building guides please make a pull request on our <a href="https://github.com/killbots2012/ModernMC-site">GitHub </a></b></h5>
+                </div>
+            <hr>
+            <footer>
+                <div class="container">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-pills right">  
+                            <ul class="nav nav-pills bottom">
+                            <li role="presentation"><a href="/pages/rules.html"><i class="fa fa-info-circle"></i></a></li>
+                            <li role="presentation"><a href="/pages/staff.html"><i class="fa fa-star"></i></a></li>
+                            <li role="presentation"><a href="/pages/vote.html"><i class="fa fa-check"></i></a></li>
+                            <li role="presentation"><a href="https://modermmc.enjin.com/shop"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>  
+                        <ul class="nav nav-pills right">             
+                            <li class="presentation"><a href="http://discord.modernmc.ca/"><i class="fab fa-discord"></i></a></li>
+                            <li class="presentation"><a href="https://www.youtube.com/channel/UC0aJPofvns-VGgAutvPu5rQ"><i class="fab fa-youtube"></i></a></li>
+                            <li class="presentation"><a href="https://www.instagram.com/moderntowny/"><i class="fab fa-instagram"></i></a></li>
+                            <li class="presentation"><a href="https://twitter.com/ModernTowny_MMC"><i class="fab fa-twitter"></i></a></li>
+                            <li class="pull-right">&copy; 2022 ModernMC</li>
+                        </ul> 
+                </div>
+            </footer>
+                </div>
+                <!-- /.container -->
+                <!-- JavaScript -->
+                <script src="/assets/js/jquery-1.10.2.js"></script>
+                <script src="/assets/js/bootstrap.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+            </body>
+        </html>
